@@ -8,8 +8,9 @@ variable "common_tags" {
 
 variable "tags" {
   default = {
-    Component = "catalogue"
+    Component = "user"
   }
+
 }
 
 variable "project_name" {
@@ -17,8 +18,15 @@ variable "project_name" {
 }
 variable "environment" {
   default = "dev"
+
 }
 
 variable "zone_name" {
-  default = "daws76s.online"
+  default = "daws76.online"
+
+}
+
+variable "iam_instance_profile" {
+    default = "ansible-role"
+  
 }

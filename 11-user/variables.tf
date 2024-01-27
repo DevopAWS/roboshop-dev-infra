@@ -1,32 +1,32 @@
-variable "common_tags" {
-  default = {
-    Project     = "roboshop"
-    Environment = "dev"
-    Terraform   = "true"
-  }
-}
+# variable "common_tags" {
+#   default = {
+#     Project     = "roboshop"
+#     Environment = "dev"
+#     Terraform   = "true"
+#   }
+# }
 
-variable "tags" {
-  default = {
-    Component = "user"
-  }
+# variable "tags" {
+#   default = {
+#     Component = "user"
+#   }
 
-}
+# }
 
-variable "project_name" {
-  default = "roboshop"
-}
-variable "environment" {
-  default = "dev"
+# variable "project_name" {
+#   default = "roboshop"
+# }
+# variable "environment" {
+#   default = "dev"
 
-}
+# }
 
-variable "zone_name" {
-  default = "daws76.online"
+# variable "zone_name" {
+#   default = "daws76.online"
 
-}
+# }
 
-variable "iam_instance_profile" {
-    default = "ansible-role"
+# variable "iam_instance_profile" {
+#     default = "ansible-role"
   
-}
+# }
