@@ -27,6 +27,6 @@ variable "zone_name" {
 }
 
 variable "iam_instance_profile" {
-    default = "ansible-role"
-  
+  default = "ansible-role"
+
 }

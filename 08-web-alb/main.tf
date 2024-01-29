@@ -19,9 +19,9 @@ resource "aws_lb_listener" "https" {
   port              = "443"
   protocol          = "HTTPS"
   ssl_policy        = "ELBSecurityPolicy-TLS13-1-2-2021-06"
-  certificate_arn   =  data.aws_ssm_parameter.acm_certificate_arn.value
+  certificate_arn   = data.aws_ssm_parameter.acm_certificate_arn.value
 
- default_action {
+  default_action {
     type = "fixed-response"
 
     fixed_response {
